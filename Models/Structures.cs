@@ -78,4 +78,13 @@ public class Structures
             ? new List<float>()
             : JsonSerializer.Deserialize<List<float>>(EmbeddingJson);
     }
+
+    public class DocumentList
+    {
+        public string ID { get; set; }
+        public string FileName { get; set; }
+        public string Summary { get; set; }
+        public string Category { get; set; }
+        public DateTime InsertDate { get; set; }
+    }
 }

@@ -105,15 +105,15 @@ namespace Smart_Document_Management_System.Controllers
         [HttpGet("list")]
         public async Task<IActionResult> ListDocuments()
         {
-                var documents = new List<DocumentWithEmbedding>();
+                var documents = new List<DocumentList>();
             using (var conn = new MySqlConnection(CommonMethods.DB))
             {
-                string sql = $"SELECT ID, FileName, Summary, Category, Reasoning, Content, Embedding AS EmbeddingJson FROM {CommonMethods.Table}";
-                var dbDocs = conn.Query<DocumentWithEmbedding>(sql);
+                string sql = $"SELECT ID, FileName, Summary, Category, InsertDate FROM {CommonMethods.Table}";
+                var dbDocs = conn.Query<DocumentList>(sql);
                 documents = dbDocs.ToList();
             }
             
-            return Ok(documents.Select(v=>new { ID = v.ID,FileName = v.FileName, Category = v.Category, Summary = v.Summary }));
+            return Ok(documents.Select(v=>new { ID = v.ID,FileName = v.FileName, UploadDate = v.InsertDate.ToString("dd/MM/yyyy HH:mm:ss tt"), Category = v.Category, Summary = v.Summary }));
         }
         [HttpDelete("delete")]
         public async Task<IActionResult> DeleteDocument([FromQuery] string fileName)

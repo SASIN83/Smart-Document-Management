@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Smart Document Management System")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a530118b7aa1af8f55071147e4f100fbb7428040")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4edf0bc12b88b4d6935198c53513f81678ed6cc5")]
 [assembly: System.Reflection.AssemblyProductAttribute("Smart Document Management System")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Smart Document Management System")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
