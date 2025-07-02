@@ -18,10 +18,6 @@
     * [Database Setup](#database-setup)
 * [Usage](#usage)
 * [API Key Configuration](#api-key-configuration)
-* [Project Structure](#project-structure)
-* [Contributing](#contributing)
-* [License](#license)
-* [Contact](#contact)
 
 ---
 
@@ -137,5 +133,3 @@ The application relies on the Gemma API for AI functionalities. You **must** con
 The application will attempt to load the API key from these locations.
 
 ---
-
-## Project Structure
