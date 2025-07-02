@@ -8,15 +8,12 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="BitMiracle.Docotic.Pdf" Version="9.7.18373" />
     <PackageReference Include="Dapper" Version="2.1.66" />
     <PackageReference Include="MySQLConnection" Version="1.0.1" />
     <PackageReference Include="MySqlConnector" Version="2.4.0" />
     <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
     <PackageReference Include="PdfPig" Version="0.1.10" />
-    <PackageReference Include="PDFsharp" Version="6.2.0" />
     <PackageReference Include="RestSharp" Version="112.1.0" />
-    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.6.2" />
   </ItemGroup>
 
   <ItemGroup>

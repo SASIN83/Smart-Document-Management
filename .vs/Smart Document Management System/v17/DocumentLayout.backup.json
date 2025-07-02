@@ -11,32 +11,20 @@
       "RelativeMoniker": "D:0:0:{13A9F90D-0488-417D-9B7F-1DC1637D0859}|Smart Document Management System.csproj|solutionrelative:controllers\\documentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{13A9F90D-0488-417D-9B7F-1DC1637D0859}|Smart Document Management System.csproj|d:\\projects\\smart document management system\\models\\structures.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{13A9F90D-0488-417D-9B7F-1DC1637D0859}|Smart Document Management System.csproj|solutionrelative:models\\structures.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{13A9F90D-0488-417D-9B7F-1DC1637D0859}|Smart Document Management System.csproj|d:\\projects\\smart document management system\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{13A9F90D-0488-417D-9B7F-1DC1637D0859}|Smart Document Management System.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{13A9F90D-0488-417D-9B7F-1DC1637D0859}|Smart Document Management System.csproj|d:\\projects\\smart document management system\\bin\\debug\\net8.0\\config.xml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{13A9F90D-0488-417D-9B7F-1DC1637D0859}|Smart Document Management System.csproj|solutionrelative:bin\\debug\\net8.0\\config.xml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{13A9F90D-0488-417D-9B7F-1DC1637D0859}|Smart Document Management System.csproj|d:\\projects\\smart document management system\\helpers\\gemmaprocessor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{13A9F90D-0488-417D-9B7F-1DC1637D0859}|Smart Document Management System.csproj|solutionrelative:helpers\\gemmaprocessor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{13A9F90D-0488-417D-9B7F-1DC1637D0859}|Smart Document Management System.csproj|d:\\projects\\smart document management system\\bin\\debug\\net8.0\\config.xml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
-      "RelativeMoniker": "D:0:0:{13A9F90D-0488-417D-9B7F-1DC1637D0859}|Smart Document Management System.csproj|solutionrelative:bin\\debug\\net8.0\\config.xml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+      "AbsoluteMoniker": "D:0:0:{13A9F90D-0488-417D-9B7F-1DC1637D0859}|Smart Document Management System.csproj|d:\\projects\\smart document management system\\database and html\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{13A9F90D-0488-417D-9B7F-1DC1637D0859}|Smart Document Management System.csproj|solutionrelative:database and html\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{13A9F90D-0488-417D-9B7F-1DC1637D0859}|Smart Document Management System.csproj|d:\\projects\\smart document management system\\helpers\\collectionhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{13A9F90D-0488-417D-9B7F-1DC1637D0859}|Smart Document Management System.csproj|solutionrelative:helpers\\collectionhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{13A9F90D-0488-417D-9B7F-1DC1637D0859}|Smart Document Management System.csproj|d:\\projects\\smart document management system\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{13A9F90D-0488-417D-9B7F-1DC1637D0859}|Smart Document Management System.csproj|solutionrelative:properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{13A9F90D-0488-417D-9B7F-1DC1637D0859}|Smart Document Management System.csproj|d:\\projects\\smart document management system\\config.xml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
-      "RelativeMoniker": "D:0:0:{13A9F90D-0488-417D-9B7F-1DC1637D0859}|Smart Document Management System.csproj|solutionrelative:config.xml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+      "AbsoluteMoniker": "D:0:0:{13A9F90D-0488-417D-9B7F-1DC1637D0859}|Smart Document Management System.csproj|d:\\projects\\smart document management system\\data\\documentdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{13A9F90D-0488-417D-9B7F-1DC1637D0859}|Smart Document Management System.csproj|solutionrelative:data\\documentdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -46,83 +34,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 0,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "GemmaProcessor.cs",
-              "DocumentMoniker": "D:\\PROJECTS\\Smart Document Management System\\Helpers\\GemmaProcessor.cs",
-              "RelativeDocumentMoniker": "Helpers\\GemmaProcessor.cs",
-              "ToolTip": "D:\\PROJECTS\\Smart Document Management System\\Helpers\\GemmaProcessor.cs",
-              "RelativeToolTip": "Helpers\\GemmaProcessor.cs",
-              "ViewState": "AgIAAGsAAAAAAAAAAAAAwIUAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-01T11:27:30.878Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "launchSettings.json",
-              "DocumentMoniker": "D:\\PROJECTS\\Smart Document Management System\\Properties\\launchSettings.json",
-              "RelativeDocumentMoniker": "Properties\\launchSettings.json",
-              "ToolTip": "D:\\PROJECTS\\Smart Document Management System\\Properties\\launchSettings.json",
-              "RelativeToolTip": "Properties\\launchSettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAGAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-06-30T13:50:05.95Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "config.xml",
-              "DocumentMoniker": "D:\\PROJECTS\\Smart Document Management System\\bin\\Debug\\net8.0\\config.xml",
-              "RelativeDocumentMoniker": "bin\\Debug\\net8.0\\config.xml",
-              "ToolTip": "D:\\PROJECTS\\Smart Document Management System\\bin\\Debug\\net8.0\\config.xml",
-              "RelativeToolTip": "bin\\Debug\\net8.0\\config.xml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAyAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003576|",
-              "WhenOpened": "2025-06-30T13:09:48.38Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "config.xml",
-              "DocumentMoniker": "D:\\PROJECTS\\Smart Document Management System\\config.xml",
-              "RelativeDocumentMoniker": "config.xml",
-              "ToolTip": "D:\\PROJECTS\\Smart Document Management System\\config.xml",
-              "RelativeToolTip": "config.xml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAA5AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003576|",
-              "WhenOpened": "2025-06-30T13:04:20.479Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\PROJECTS\\Smart Document Management System\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "D:\\PROJECTS\\Smart Document Management System\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAABcAAAAAAAAAAADwvxsAAAAmAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-30T12:21:37.001Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "CollectionHelper.cs",
-              "DocumentMoniker": "D:\\PROJECTS\\Smart Document Management System\\Helpers\\CollectionHelper.cs",
-              "RelativeDocumentMoniker": "Helpers\\CollectionHelper.cs",
-              "ToolTip": "D:\\PROJECTS\\Smart Document Management System\\Helpers\\CollectionHelper.cs",
-              "RelativeToolTip": "Helpers\\CollectionHelper.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-30T12:27:02.92Z"
-            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -131,9 +44,35 @@
               "RelativeDocumentMoniker": "Helpers\\CommonMethods.cs",
               "ToolTip": "D:\\PROJECTS\\Smart Document Management System\\Helpers\\CommonMethods.cs",
               "RelativeToolTip": "Helpers\\CommonMethods.cs",
-              "ViewState": "AgIAACgAAAAAAAAAAAAiwFoAAAB2AAAAAAAAAA==",
+              "ViewState": "AgIAACgAAAAAAAAAAADwv1oAAAAFAQAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-30T12:23:43.079Z",
+              "WhenOpened": "2025-07-02T14:58:49.111Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "config.xml",
+              "DocumentMoniker": "D:\\PROJECTS\\Smart Document Management System\\bin\\Debug\\net8.0\\config.xml",
+              "RelativeDocumentMoniker": "bin\\Debug\\net8.0\\config.xml",
+              "ToolTip": "D:\\PROJECTS\\Smart Document Management System\\bin\\Debug\\net8.0\\config.xml",
+              "RelativeToolTip": "bin\\Debug\\net8.0\\config.xml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003576|",
+              "WhenOpened": "2025-07-02T14:55:49.955Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "index.html",
+              "DocumentMoniker": "D:\\PROJECTS\\Smart Document Management System\\Database and HTML\\index.html",
+              "RelativeDocumentMoniker": "Database and HTML\\index.html",
+              "ToolTip": "D:\\PROJECTS\\Smart Document Management System\\Database and HTML\\index.html",
+              "RelativeToolTip": "Database and HTML\\index.html",
+              "ViewState": "AgIAAIEAAAAAAAAAAAAQwJMAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2025-07-02T14:45:35.505Z",
               "EditorCaption": ""
             },
             {
@@ -144,22 +83,35 @@
               "RelativeDocumentMoniker": "Controllers\\DocumentController.cs",
               "ToolTip": "D:\\PROJECTS\\Smart Document Management System\\Controllers\\DocumentController.cs",
               "RelativeToolTip": "Controllers\\DocumentController.cs",
-              "ViewState": "AgIAAEEAAAAAAAAAAADwv0oAAAAYAAAAAAAAAA==",
+              "ViewState": "AgIAADQAAAAAAAAAAAAcwEgAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-30T12:15:20.207Z",
+              "WhenOpened": "2025-07-02T14:43:23.78Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Structures.cs",
-              "DocumentMoniker": "D:\\PROJECTS\\Smart Document Management System\\Models\\Structures.cs",
-              "RelativeDocumentMoniker": "Models\\Structures.cs",
-              "ToolTip": "D:\\PROJECTS\\Smart Document Management System\\Models\\Structures.cs",
-              "RelativeToolTip": "Models\\Structures.cs",
-              "ViewState": "AgIAADEAAAAAAAAAAAA9wD0AAAArAAAAAAAAAA==",
+              "DocumentIndex": 5,
+              "Title": "DocumentDbContext.cs",
+              "DocumentMoniker": "D:\\PROJECTS\\Smart Document Management System\\Data\\DocumentDbContext.cs",
+              "RelativeDocumentMoniker": "Data\\DocumentDbContext.cs",
+              "ToolTip": "D:\\PROJECTS\\Smart Document Management System\\Data\\DocumentDbContext.cs",
+              "RelativeToolTip": "Data\\DocumentDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-30T12:15:10.298Z",
+              "WhenOpened": "2025-07-02T14:43:17.344Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "GemmaProcessor.cs",
+              "DocumentMoniker": "D:\\PROJECTS\\Smart Document Management System\\Helpers\\GemmaProcessor.cs",
+              "RelativeDocumentMoniker": "Helpers\\GemmaProcessor.cs",
+              "ToolTip": "D:\\PROJECTS\\Smart Document Management System\\Helpers\\GemmaProcessor.cs",
+              "RelativeToolTip": "Helpers\\GemmaProcessor.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAE8AAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-02T14:42:13.432Z",
               "EditorCaption": ""
             }
           ]

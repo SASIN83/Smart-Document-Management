@@ -1,6 +1,4 @@
-﻿using PdfSharp.Pdf;
-using PdfSharp.Pdf.IO;
-using RestSharp;
+﻿using RestSharp;
 using System;
 using System.IO;
 using System.Net;

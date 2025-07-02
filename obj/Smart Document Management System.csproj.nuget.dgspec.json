@@ -50,10 +50,6 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
-            "BitMiracle.Docotic.Pdf": {
-              "target": "Package",
-              "version": "[9.7.18373, )"
-            },
             "Dapper": {
               "target": "Package",
               "version": "[2.1.66, )"
@@ -70,10 +66,6 @@
               "target": "Package",
               "version": "[13.0.3, )"
             },
-            "PDFsharp": {
-              "target": "Package",
-              "version": "[6.2.0, )"
-            },
             "PdfPig": {
               "target": "Package",
               "version": "[0.1.10, )"
@@ -81,10 +73,6 @@
             "RestSharp": {
               "target": "Package",
               "version": "[112.1.0, )"
-            },
-            "Swashbuckle.AspNetCore": {
-              "target": "Package",
-              "version": "[6.6.2, )"
             }
           },
           "imports": [

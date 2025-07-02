@@ -1,6 +1,22 @@
 [
   {
     "ContainingType": "Smart_Document_Management_System.Controllers.DocumentController",
+    "Method": "DeleteDocument",
+    "RelativePath": "Document/delete",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "fileName",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Smart_Document_Management_System.Controllers.DocumentController",
     "Method": "Get",
     "RelativePath": "Document/get",
     "HttpMethod": "GET",

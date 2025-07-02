@@ -88,7 +88,7 @@ namespace Smart_Document_Management_System.Helpers
             {
                 using (MySqlConnection conn = new MySqlConnection(DB))
                 {
-                    string query = $"INSERT INTO {Table} (ID,FileName,Summary, Category, Reasoning, Content, Embedding) VALUES (\"{guid}\",\"{FileName}\",\"{Summary}\",\"{Category}\", \"{Reasoning}\", \"{text}\", \"{embeddingJson}\")";
+                    string query = $"INSERT INTO {Table} (ID,FileName,Summary, Category, Reasoning, Content, Embedding) VALUES (\"{guid}\",\"{FileName}\",\"{Summary.Replace("\"","")}\",\"{Category}\", \"{Reasoning.Replace("\"", "")}\", \"{text.Replace("\"", "")}\", \"{embeddingJson}\")";
                     conn.Open();
                     var result = conn.Query(query);
                     

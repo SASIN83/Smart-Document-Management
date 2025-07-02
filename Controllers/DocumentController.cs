@@ -5,8 +5,6 @@ using Microsoft.AspNetCore.Http.Extensions;
 using Microsoft.AspNetCore.Http.HttpResults;
 using Microsoft.AspNetCore.Mvc;
 using MySqlConnector;
-using PdfSharp.Pdf;
-using PdfSharp.Pdf.IO;
 using RestSharp;
 using Smart_Document_Management_System.Helpers;
 using System.Diagnostics;
@@ -116,6 +114,27 @@ namespace Smart_Document_Management_System.Controllers
             }
             
             return Ok(documents.Select(v=>new { ID = v.ID,FileName = v.FileName, Category = v.Category, Summary = v.Summary }));
+        }
+        [HttpDelete("delete")]
+        public async Task<IActionResult> DeleteDocument([FromQuery] string fileName)
+        {
+            if (string.IsNullOrEmpty(fileName))
+            {
+                return BadRequest("File Name is required.");
+            }
+            using (var conn = new MySqlConnection(CommonMethods.DB))
+            {
+                string sql = $"DELETE FROM {CommonMethods.Table} WHERE FileName = @FileName";
+                var result = await conn.ExecuteAsync(sql, new { FileName = fileName });
+                if (result > 0)
+                {
+                    return Ok("Document deleted successfully.");
+                }
+                else
+                {
+                    return NotFound("Document not found.");
+                }
+            }
         }
         [HttpGet("semantic-search")]
         public async Task<IActionResult> SemanticSearch([FromQuery] string query)

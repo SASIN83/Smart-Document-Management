@@ -15,6 +15,20 @@
         .dropdown-content { display: none; margin-top: 0.5em; background: #e6f7ff; padding: 0.5em; border-radius: 4px; }
         .doc-item.open .dropdown-content { display: block; }
         .doc-header { cursor: pointer; }
+        .delete-btn {
+            background: #e74c3c;
+            color: #fff;
+            border: none;
+            border-radius: 3px;
+            padding: 0.3em 0.8em;
+            cursor: pointer;
+            margin-left: 1em;
+            font-size: 0.95em;
+        }
+
+            .delete-btn:hover {
+                background: #c0392b;
+            }
     </style>
 </head>
 <body>
@@ -86,12 +100,14 @@
                 const div = document.createElement('div');
                 div.className = 'doc-item';
                 div.innerHTML = `
-        <div class="doc-header" onclick="toggleDropdown(event)">
-            <b>${f.fileName}</b> <span style="color: #888;">[${f.category || ''}]</span>
-            <span style="float:right;">&#9660;</span>
-        </div>
-        <div class="dropdown-content"><b>Summary:</b> ${f.summary || 'No summary'}</div>
-    `;
+            <div class="doc-header" style="display: flex; align-items: center; justify-content: space-between;" onclick="toggleDropdown(event)">
+                <span>
+                    <b>${f.fileName}</b> <span style="color: #888;">[${f.category || ''}]</span>
+                </span>
+                <button class="delete-btn" onclick="deleteFile(event, '${encodeURIComponent(f.fileName)}')">Delete</button>
+            </div>
+            <div class="dropdown-content"><b>Summary:</b> ${f.summary || 'No summary'}</div>
+        `;
                 container.appendChild(div);
             });
         }
@@ -119,7 +135,16 @@
                 container.appendChild(div);
             });
         }
-
+        async function deleteFile(event, fileName) {
+            event.stopPropagation(); // Prevent dropdown toggle
+            if (!confirm(`Are you sure you want to delete "${decodeURIComponent(fileName)}"?`)) return;
+            const res = await fetch(`${API_BASE}/Document/delete?fileName=${fileName}`, { method: 'DELETE' });
+            if (res.ok) {
+                fetchFiles();
+            } else {
+                alert('Failed to delete file.');
+            }
+        }
         // Expose toggleDropdown globally for inline onclick
         window.toggleDropdown = toggleDropdown;
 
