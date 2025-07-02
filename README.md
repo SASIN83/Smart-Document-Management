@@ -94,7 +94,9 @@ Before you begin, ensure you have the following installed:
 ### Database Setup
 
 1.  **Create a MySQL database:**
+
 a. Open MySQL Workbench or your preferred MySQL client
+
 b. Import this DB https://github.com/SASIN83/Smart-Document-Management/blob/main/Database%20and%20HTML/DB%20Structure.sql
     
 
