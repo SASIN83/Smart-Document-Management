@@ -94,32 +94,12 @@ Before you begin, ensure you have the following installed:
 ### Database Setup
 
 1.  **Create a MySQL database:**
-    Open MySQL Workbench or your preferred MySQL client and execute the following SQL command to create a new database (e.g., `document_insight_db`):
+a. Open MySQL Workbench or your preferred MySQL client
+b. Import this DB https://github.com/SASIN83/Smart-Document-Management/blob/main/Database%20and%20HTML/DB%20Structure.sql
+    
 
-    ```sql
-    CREATE DATABASE IF NOT EXISTS document_insight_db;
-    ```
+details:
 
-2.  **Configure Database Connection String:**
-    Open the `appsettings.json` file in your .NET Core project (typically located in the main project directory or `src/YourProjectName`). Update the `ConnectionStrings` section with your MySQL connection details:
-
-    ```json
-    {
-      "ConnectionStrings": {
-        "DefaultConnection": "Server=localhost;Port=3306;Database=document_insight_db;Uid=your_mysql_username;Pwd=your_mysql_password;"
-      },
-      // Other configurations...
-    }
-    ```
-    **Important:** Replace `your_mysql_username` and `your_mysql_password` with your actual MySQL credentials.
-
-3.  **Apply Migrations (if using Entity Framework Core):**
-    If your project uses Entity Framework Core for database migrations, navigate to the project directory in your terminal and run:
-
-    ```bash
-    dotnet ef database update
-    ```
-    This will create the necessary tables in your `document_insight_db` database. If you're not using EF Core, you'll need to manually execute the SQL schema definition (usually found in a `schema.sql` or similar file in the repository).
 
 ---
 
