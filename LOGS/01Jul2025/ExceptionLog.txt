@@ -1,0 +1,56 @@
+01-07-2025 19:10:16:167 PM - UploadDocument 
+Exception: The input does not contain any JSON tokens. Expected the input to start with a valid JSON token, when isFinalBlock is true. Path: $ | LineNumber: 0 | BytePositionInLine: 0.
+Stack Trace:    at System.Text.Json.ThrowHelper.ReThrowWithPath(ReadStack& state, JsonReaderException ex)
+   at System.Text.Json.Serialization.JsonConverter`1.ReadCore(Utf8JsonReader& reader, JsonSerializerOptions options, ReadStack& state)
+   at System.Text.Json.JsonSerializer.ReadFromSpan[TValue](ReadOnlySpan`1 utf8Json, JsonTypeInfo`1 jsonTypeInfo, Nullable`1 actualByteCount)
+   at System.Text.Json.JsonSerializer.ReadFromSpan[TValue](ReadOnlySpan`1 json, JsonTypeInfo`1 jsonTypeInfo)
+   at System.Text.Json.JsonSerializer.Deserialize[TValue](String json, JsonSerializerOptions options)
+   at Smart_Document_Management_System.Helpers.GemmaProcessor.ProcessPdfAsync(String pdfFilePath) in D:\PROJECTS\Smart Document Management System\Helpers\GemmaProcessor.cs:line 48
+   at Smart_Document_Management_System.Controllers.DocumentController.UploadDocument(IFormFile file) in D:\PROJECTS\Smart Document Management System\Controllers\DocumentController.cs:line 54
+01-07-2025 19:15:12:550 PM - UploadDocument 
+Exception: 'System.Text.Json.JsonElement' does not contain a definition for 'candidates'
+Stack Trace:    at CallSite.Target(Closure, CallSite, Object)
+   at System.Dynamic.UpdateDelegates.UpdateAndExecute1[T0,TRet](CallSite site, T0 arg0)
+   at Smart_Document_Management_System.Helpers.GemmaProcessor.ProcessPdfAsync(String pdfFilePath) in D:\PROJECTS\Smart Document Management System\Helpers\GemmaProcessor.cs:line 51
+   at Smart_Document_Management_System.Controllers.DocumentController.UploadDocument(IFormFile file) in D:\PROJECTS\Smart Document Management System\Controllers\DocumentController.cs:line 54
+01-07-2025 19:54:09:976 PM - UploadDocument 
+Exception: 'System.Text.Json.JsonElement' does not contain a definition for 'candidates'
+Stack Trace:    at CallSite.Target(Closure, CallSite, Object)
+   at System.Dynamic.UpdateDelegates.UpdateAndExecute1[T0,TRet](CallSite site, T0 arg0)
+   at Smart_Document_Management_System.Helpers.GemmaProcessor.ProcessPdfAsync(String pdfFilePath) in D:\PROJECTS\Smart Document Management System\Helpers\GemmaProcessor.cs:line 51
+   at Smart_Document_Management_System.Controllers.DocumentController.UploadDocument(IFormFile file) in D:\PROJECTS\Smart Document Management System\Controllers\DocumentController.cs:line 54
+01-07-2025 20:00:10:028 PM - UploadDocument 
+Exception: 'System.Text.Json.JsonElement' does not contain a definition for 'candidates'
+Stack Trace:    at CallSite.Target(Closure, CallSite, Object)
+   at System.Dynamic.UpdateDelegates.UpdateAndExecute1[T0,TRet](CallSite site, T0 arg0)
+   at Smart_Document_Management_System.Helpers.GemmaProcessor.ProcessPdfAsync(String pdfFilePath) in D:\PROJECTS\Smart Document Management System\Helpers\GemmaProcessor.cs:line 51
+   at Smart_Document_Management_System.Controllers.DocumentController.UploadDocument(IFormFile file) in D:\PROJECTS\Smart Document Management System\Controllers\DocumentController.cs:line 54
+01-07-2025 20:34:35:850 PM - DBUpdateQuery 
+Exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'a confirmation letter from Universal College of Engineering, Mumbai, India, veri' at line 1
+Stack Trace:    at MySqlConnector.Core.ServerSession.ReceiveReplyAsync(IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/ServerSession.cs:line 1081
+   at MySqlConnector.Core.ResultSet.ReadResultSetHeaderAsync(IOBehavior ioBehavior) in /_/src/MySqlConnector/Core/ResultSet.cs:line 37
+   at MySqlConnector.MySqlDataReader.ActivateResultSet(CancellationToken cancellationToken) in /_/src/MySqlConnector/MySqlDataReader.cs:line 131
+   at MySqlConnector.MySqlDataReader.InitAsync(CommandListPosition commandListPosition, ICommandPayloadCreator payloadCreator, IDictionary`2 cachedProcedures, IMySqlCommand command, CommandBehavior behavior, Activity activity, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/MySqlDataReader.cs:line 487
+   at MySqlConnector.Core.CommandExecutor.ExecuteReaderAsync(CommandListPosition commandListPosition, ICommandPayloadCreator payloadCreator, CommandBehavior behavior, Activity activity, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/CommandExecutor.cs:line 56
+   at MySqlConnector.MySqlCommand.ExecuteReaderAsync(CommandBehavior behavior, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/MySqlCommand.cs:line 357
+   at MySqlConnector.MySqlCommand.ExecuteDbDataReader(CommandBehavior behavior) in /_/src/MySqlConnector/MySqlCommand.cs:line 290
+   at Dapper.SqlMapper.ExecuteReaderWithFlagsFallback(IDbCommand cmd, Boolean wasClosed, CommandBehavior behavior) in /_/Dapper/SqlMapper.cs:line 1185
+   at Dapper.SqlMapper.QueryImpl[T](IDbConnection cnn, CommandDefinition command, Type effectiveType)+MoveNext() in /_/Dapper/SqlMapper.cs:line 1213
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Dapper.SqlMapper.Query[T](IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Boolean buffered, Nullable`1 commandTimeout, Nullable`1 commandType) in /_/Dapper/SqlMapper.cs:line 844
+   at Dapper.SqlMapper.Query(IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Boolean buffered, Nullable`1 commandTimeout, Nullable`1 commandType) in /_/Dapper/SqlMapper.cs:line 766
+   at Smart_Document_Management_System.Helpers.CommonMethods.DBUpdateQuery(String guid, String FileName, String Summary) in D:\PROJECTS\Smart Document Management System\Helpers\CommonMethods.cs:line 78
+01-07-2025 20:48:18:726 PM - UploadDocument 
+Exception: The process cannot access the file '0483f5fa-82a8-4a44-b4c6-5747dcf89615.tmp' because it is being used by another process.
+Stack Trace:    at System.IO.FileSystem.RemoveDirectoryRecursive(String fullPath, WIN32_FIND_DATA& findData, Boolean topLevel)
+   at System.IO.FileSystem.RemoveDirectory(String fullPath, Boolean recursive)
+   at Smart_Document_Management_System.Controllers.DocumentController.UploadDocument(IFormFile file) in D:\PROJECTS\Smart Document Management System\Controllers\DocumentController.cs:line 56
+01-07-2025 20:48:56:657 PM - ProcessPdfAsync 
+Exception: The input does not contain any JSON tokens. Expected the input to start with a valid JSON token, when isFinalBlock is true. Path: $ | LineNumber: 0 | BytePositionInLine: 0.
+Stack Trace:    at System.Text.Json.ThrowHelper.ReThrowWithPath(ReadStack& state, JsonReaderException ex)
+   at System.Text.Json.Serialization.JsonConverter`1.ReadCore(Utf8JsonReader& reader, JsonSerializerOptions options, ReadStack& state)
+   at System.Text.Json.JsonSerializer.ReadFromSpan[TValue](ReadOnlySpan`1 utf8Json, JsonTypeInfo`1 jsonTypeInfo, Nullable`1 actualByteCount)
+   at System.Text.Json.JsonSerializer.ReadFromSpan[TValue](ReadOnlySpan`1 json, JsonTypeInfo`1 jsonTypeInfo)
+   at System.Text.Json.JsonSerializer.Deserialize[TValue](String json, JsonSerializerOptions options)
+   at Smart_Document_Management_System.Helpers.GemmaProcessor.ProcessPdfAsync(String pdfFilePath)

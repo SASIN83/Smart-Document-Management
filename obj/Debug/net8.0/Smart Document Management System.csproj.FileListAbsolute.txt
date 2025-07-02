@@ -1,0 +1,65 @@
+D:\PROJECTS\Smart Document Management System\bin\Debug\net8.0\appsettings.Development.json
+D:\PROJECTS\Smart Document Management System\bin\Debug\net8.0\appsettings.json
+D:\PROJECTS\Smart Document Management System\bin\Debug\net8.0\Smart Document Management System.staticwebassets.endpoints.json
+D:\PROJECTS\Smart Document Management System\bin\Debug\net8.0\Smart Document Management System.exe
+D:\PROJECTS\Smart Document Management System\bin\Debug\net8.0\Smart Document Management System.deps.json
+D:\PROJECTS\Smart Document Management System\bin\Debug\net8.0\Smart Document Management System.runtimeconfig.json
+D:\PROJECTS\Smart Document Management System\bin\Debug\net8.0\Smart Document Management System.dll
+D:\PROJECTS\Smart Document Management System\bin\Debug\net8.0\Smart Document Management System.pdb
+D:\PROJECTS\Smart Document Management System\bin\Debug\net8.0\Microsoft.OpenApi.dll
+D:\PROJECTS\Smart Document Management System\bin\Debug\net8.0\Newtonsoft.Json.dll
+D:\PROJECTS\Smart Document Management System\bin\Debug\net8.0\RestSharp.dll
+D:\PROJECTS\Smart Document Management System\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\PROJECTS\Smart Document Management System\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\PROJECTS\Smart Document Management System\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\PROJECTS\Smart Document Management System\obj\Debug\net8.0\Smart Document Management System.csproj.AssemblyReference.cache
+D:\PROJECTS\Smart Document Management System\obj\Debug\net8.0\rpswa.dswa.cache.json
+D:\PROJECTS\Smart Document Management System\obj\Debug\net8.0\Smart Document Management System.GeneratedMSBuildEditorConfig.editorconfig
+D:\PROJECTS\Smart Document Management System\obj\Debug\net8.0\Smart Document Management System.AssemblyInfoInputs.cache
+D:\PROJECTS\Smart Document Management System\obj\Debug\net8.0\Smart Document Management System.AssemblyInfo.cs
+D:\PROJECTS\Smart Document Management System\obj\Debug\net8.0\Smart Document Management System.csproj.CoreCompileInputs.cache
+D:\PROJECTS\Smart Document Management System\obj\Debug\net8.0\Smart Document Management System.MvcApplicationPartsAssemblyInfo.cs
+D:\PROJECTS\Smart Document Management System\obj\Debug\net8.0\Smart Document Management System.MvcApplicationPartsAssemblyInfo.cache
+D:\PROJECTS\Smart Document Management System\obj\Debug\net8.0\rjimswa.dswa.cache.json
+D:\PROJECTS\Smart Document Management System\obj\Debug\net8.0\rjsmrazor.dswa.cache.json
+D:\PROJECTS\Smart Document Management System\obj\Debug\net8.0\rjsmcshtml.dswa.cache.json
+D:\PROJECTS\Smart Document Management System\obj\Debug\net8.0\scopedcss\bundle\Smart Document Management System.styles.css
+D:\PROJECTS\Smart Document Management System\obj\Debug\net8.0\staticwebassets.build.json
+D:\PROJECTS\Smart Document Management System\obj\Debug\net8.0\staticwebassets.build.json.cache
+D:\PROJECTS\Smart Document Management System\obj\Debug\net8.0\staticwebassets.development.json
+D:\PROJECTS\Smart Document Management System\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+D:\PROJECTS\Smart Document Management System\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+D:\PROJECTS\Smart Document Management System\obj\Debug\net8.0\Smart Do.E1944179.Up2Date
+D:\PROJECTS\Smart Document Management System\obj\Debug\net8.0\Smart Document Management System.dll
+D:\PROJECTS\Smart Document Management System\obj\Debug\net8.0\refint\Smart Document Management System.dll
+D:\PROJECTS\Smart Document Management System\obj\Debug\net8.0\Smart Document Management System.pdb
+D:\PROJECTS\Smart Document Management System\obj\Debug\net8.0\Smart Document Management System.genruntimeconfig.cache
+D:\PROJECTS\Smart Document Management System\obj\Debug\net8.0\ref\Smart Document Management System.dll
+D:\PROJECTS\Smart Document Management System\bin\Debug\net8.0\Dapper.dll
+D:\PROJECTS\Smart Document Management System\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.dll
+D:\PROJECTS\Smart Document Management System\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\PROJECTS\Smart Document Management System\bin\Debug\net8.0\Microsoft.Extensions.Logging.dll
+D:\PROJECTS\Smart Document Management System\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
+D:\PROJECTS\Smart Document Management System\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
+D:\PROJECTS\Smart Document Management System\bin\Debug\net8.0\MySql.Data.dll
+D:\PROJECTS\Smart Document Management System\bin\Debug\net8.0\MySQLConnection.dll
+D:\PROJECTS\Smart Document Management System\bin\Debug\net8.0\MySqlConnector.dll
+D:\PROJECTS\Smart Document Management System\bin\Debug\net8.0\PdfSharp.BarCodes.dll
+D:\PROJECTS\Smart Document Management System\bin\Debug\net8.0\PdfSharp.Charting.dll
+D:\PROJECTS\Smart Document Management System\bin\Debug\net8.0\PdfSharp.Cryptography.dll
+D:\PROJECTS\Smart Document Management System\bin\Debug\net8.0\PdfSharp.Quality.dll
+D:\PROJECTS\Smart Document Management System\bin\Debug\net8.0\PdfSharp.Shared.dll
+D:\PROJECTS\Smart Document Management System\bin\Debug\net8.0\PdfSharp.Snippets.dll
+D:\PROJECTS\Smart Document Management System\bin\Debug\net8.0\PdfSharp.System.dll
+D:\PROJECTS\Smart Document Management System\bin\Debug\net8.0\PdfSharp.WPFonts.dll
+D:\PROJECTS\Smart Document Management System\bin\Debug\net8.0\PdfSharp.dll
+D:\PROJECTS\Smart Document Management System\bin\Debug\net8.0\System.Security.Cryptography.Pkcs.dll
+D:\PROJECTS\Smart Document Management System\bin\Debug\net8.0\runtimes\win\lib\net8.0\System.Security.Cryptography.Pkcs.dll
+D:\PROJECTS\Smart Document Management System\bin\Debug\net8.0\BitMiracle.Docotic.Pdf.dll
+D:\PROJECTS\Smart Document Management System\bin\Debug\net8.0\UglyToad.PdfPig.Core.dll
+D:\PROJECTS\Smart Document Management System\bin\Debug\net8.0\UglyToad.PdfPig.DocumentLayoutAnalysis.dll
+D:\PROJECTS\Smart Document Management System\bin\Debug\net8.0\UglyToad.PdfPig.Fonts.dll
+D:\PROJECTS\Smart Document Management System\bin\Debug\net8.0\UglyToad.PdfPig.Package.dll
+D:\PROJECTS\Smart Document Management System\bin\Debug\net8.0\UglyToad.PdfPig.Tokenization.dll
+D:\PROJECTS\Smart Document Management System\bin\Debug\net8.0\UglyToad.PdfPig.Tokens.dll
+D:\PROJECTS\Smart Document Management System\bin\Debug\net8.0\UglyToad.PdfPig.dll

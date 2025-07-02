@@ -1,0 +1,54 @@
+[
+  {
+    "ContainingType": "Smart_Document_Management_System.Controllers.DocumentController",
+    "Method": "Get",
+    "RelativePath": "Document/get",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Smart_Document_Management_System.Controllers.DocumentController",
+    "Method": "ListDocuments",
+    "RelativePath": "Document/list",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Smart_Document_Management_System.Controllers.DocumentController",
+    "Method": "SemanticSearch",
+    "RelativePath": "Document/semantic-search",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "query",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Smart_Document_Management_System.Controllers.DocumentController",
+    "Method": "UploadDocument",
+    "RelativePath": "Document/upload",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "file",
+        "Type": "Microsoft.AspNetCore.Http.IFormFile",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<configuration>
+	<Server>
+		<IP>http://localhost:5000</IP>
+	</Server>
+	<DataBase>
+		<ConnectionString>Server=127.0.0.1;Database=SmartDoc;User Id=root;Password=root@123;</ConnectionString>
+		<Table>filesummaryinfo</Table>
+	</DataBase>
+	<OTHER>
+		<LOG-PATH>Path to generate logs</LOG-PATH>
+		<API-KEY>Gemini API Key</API-KEY>
+	</OTHER>
+</configuration>
